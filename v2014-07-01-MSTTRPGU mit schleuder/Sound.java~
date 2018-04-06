@@ -1,0 +1,62 @@
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.URL;
+
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
+
+//import javafx.scene.media.Media;
+public class Sound{
+    AudioClip sound;
+
+    private static double musikLautstaerke = 0.5;
+    private static double soundLautstaerke = 0.5;
+
+    private static boolean musikAn = false;
+    private static boolean soundAn = false;
+
+    public Sound(String pfad){
+        URL url = Sound.class.getResource(pfad);
+        sound= Applet.newAudioClip(url);
+    }
+
+    public void start(){
+        sound.play();
+    }
+
+    public void stop(){
+        sound.stop();
+    }
+
+    public static void musikLautstaerke(double lautstaerke){
+        musikLautstaerke = lautstaerke;
+    }
+
+    public static void soundLautstaerke(double lautstaerke){
+        soundLautstaerke = lautstaerke;
+    }
+
+    public static void musikAnAus(){
+        musikAn = !musikAn;
+    }
+
+    public static void musikAn(){
+        musikAn = true;
+    }
+
+    public static void musikAus(){
+        musikAn = false;
+    }
+
+    public static void soundAnAus(){
+        soundAn = !soundAn;
+    }
+    
+    public static void soundAn(){
+        soundAn = true;
+    }
+
+    public static void soundAus(){
+        soundAn = false;
+    }
+}

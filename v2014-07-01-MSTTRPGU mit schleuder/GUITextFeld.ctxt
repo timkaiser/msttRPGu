@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=text
+comment0.target=GUITextFeld(java.lang.String)
+comment1.params=g\ panel
+comment1.target=void\ zeichnen(java.awt.Graphics,\ javax.swing.JPanel)
+comment2.params=
+comment2.target=void\ weiter()
+numComments=3

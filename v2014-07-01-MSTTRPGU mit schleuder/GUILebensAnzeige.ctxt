@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ spieler
+comment0.target=GUILebensAnzeige(double,\ double,\ double,\ double,\ Spieler)
+comment1.params=g\ panel
+comment1.target=void\ zeichnen(java.awt.Graphics,\ javax.swing.JPanel)
+numComments=2

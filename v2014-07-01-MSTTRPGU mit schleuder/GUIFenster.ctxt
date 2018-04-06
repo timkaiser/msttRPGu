@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height
+comment0.target=GUIFenster(double,\ double,\ double,\ double)
+comment1.params=g\ panel
+comment1.target=void\ zeichnen(java.awt.Graphics,\ javax.swing.JPanel)
+comment2.params=g\ x\ y\ width\ height\ farbeRand\ farbeInnen\ abstand\ counter
+comment2.target=void\ rechteck(java.awt.Graphics,\ int,\ int,\ int,\ int,\ java.awt.Color,\ java.awt.Color,\ int,\ int)
+comment3.params=g\ x\ y\ width\ height\ farbe
+comment3.target=void\ rechteckHorizontal(java.awt.Graphics,\ int,\ int,\ int,\ int,\ java.awt.Color)
+comment4.params=g\ x\ y\ width\ height\ farbe
+comment4.target=void\ rechteckVertical(java.awt.Graphics,\ int,\ int,\ int,\ int,\ java.awt.Color)
+numComments=5

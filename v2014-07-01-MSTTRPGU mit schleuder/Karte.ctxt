@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Karte()
+comment1.params=
+comment1.target=void\ levelEinlesen()
+comment2.params=hindernisse\ hintergrund\ einheiten\ breite\ hoehe
+comment2.target=void\ inChunksAufteilen(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ int)
+comment3.params=spielerX\ spielerY
+comment3.target=java.util.ArrayList\ getChunks(int,\ int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getRespawnpunkte()
+numComments=5

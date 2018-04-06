@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height
+comment0.target=GUIItemBox(double,\ double,\ double,\ double)
+comment1.params=g\ panel
+comment1.target=void\ zeichnen(java.awt.Graphics,\ javax.swing.JPanel)
+comment2.params=containerWidth\ containerHeight
+comment2.target=void\ berechnen(int,\ int)
+comment3.params=item
+comment3.target=void\ setItem(Items)
+numComments=4

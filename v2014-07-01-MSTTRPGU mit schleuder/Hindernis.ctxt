@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=bild\ maske\ x\ y\ breite\ hoehe\ ebene
+comment0.target=Hindernis(java.awt.image.BufferedImage,\ java.awt.image.BufferedImage,\ double,\ double,\ int,\ int,\ int)
+comment1.params=einheit\ vHorizontal\ vVertikal
+comment1.target=boolean\ kollidiertMit(Einheit,\ double,\ double)
+numComments=2

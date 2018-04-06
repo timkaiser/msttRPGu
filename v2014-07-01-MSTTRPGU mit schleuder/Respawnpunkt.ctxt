@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Respawnpunkt(int,\ int)
+comment1.params=sp
+comment1.target=void\ spielerZumSpawn(Spieler)
+comment2.params=xe\ ye
+comment2.target=int\ getEntfernung(int,\ int)
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=
+comment5.target=void\ aktivieren()
+comment6.params=
+comment6.target=void\ deaktivieren()
+numComments=7

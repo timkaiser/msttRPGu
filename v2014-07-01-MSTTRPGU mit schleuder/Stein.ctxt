@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=x\ y\ xBeschleunigung\ yBeschleunigung
+comment0.target=Stein(int,\ int,\ int,\ int)
+numComments=1

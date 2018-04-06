@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ spieler
+comment0.target=GUITopLeiste(double,\ double,\ double,\ double,\ Spieler)
+comment1.params=g\ panel
+comment1.target=void\ zeichnen(java.awt.Graphics,\ javax.swing.JPanel)
+comment2.params=item
+comment2.target=void\ setAngriffBox(Items)
+comment3.params=item
+comment3.target=void\ setItemBox(Items)
+comment4.params=
+comment4.target=Spieler\ getSpieler()
+comment5.params=breite\ hoehe
+comment5.target=void\ berechnen(int,\ int)
+numComments=6

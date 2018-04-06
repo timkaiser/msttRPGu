@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ text
+comment0.target=Mensch(int,\ int,\ GUITextFeld)
+comment1.params=hindernisse
+comment1.target=void\ positionBerechnen(java.util.ArrayList)
+comment2.params=
+comment2.target=void\ kollidiertMitSpieler()
+comment3.params=x\ y\ schaden
+comment3.target=void\ wirdAngegriffen(double,\ double,\ int)
+numComments=4

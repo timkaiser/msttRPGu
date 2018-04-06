@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Spinne(double,\ double)
+comment1.params=hindernisse
+comment1.target=void\ ki(java.util.ArrayList)
+comment2.params=
+comment2.target=void\ aufSpielerZuBewegen()
+comment3.params=
+comment3.target=void\ zufaelligBewegen()
+comment4.params=
+comment4.target=void\ zurueckZumStart()
+numComments=5
