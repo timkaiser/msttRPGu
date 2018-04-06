@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=image\ name\ spieler
+comment0.target=Items(java.awt.image.BufferedImage,\ java.lang.String,\ Spieler)
+comment1.params=aktivieren
+comment1.target=void\ aktivieren(boolean)
+comment2.params=g\ zoomfaktor\ panel
+comment2.target=void\ zeichnen(java.awt.Graphics,\ double,\ javax.swing.JPanel)
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getImage()
+comment4.params=
+comment4.target=Spieler\ getBesitzer()
+comment5.params=image
+comment5.target=void\ setBufferedImage(java.awt.image.BufferedImage)
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=name
+comment7.target=void\ setName(java.lang.String)
+numComments=8

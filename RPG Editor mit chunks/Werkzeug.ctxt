@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=maus\ gitter
+comment0.target=void\ ausfuehren(java.awt.Rectangle,\ Gitter[][])
+numComments=1

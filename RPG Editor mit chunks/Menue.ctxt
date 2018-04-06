@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=frame\ gitter
+comment0.target=Menue(Frame,\ Gitter[][][])
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ propertyChange(java.beans.PropertyChangeEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=verzeichnis
+comment6.target=void\ speichern(java.lang.String)
+comment7.params=code\ x\ y
+comment7.target=Gitter\ welchesZeichenGitter(char,\ int,\ int)
+comment8.params=verz
+comment8.target=void\ zeichnen(java.lang.String)
+comment9.params=breite\ hoehe
+comment9.target=void\ groesse(int,\ int)
+numComments=10

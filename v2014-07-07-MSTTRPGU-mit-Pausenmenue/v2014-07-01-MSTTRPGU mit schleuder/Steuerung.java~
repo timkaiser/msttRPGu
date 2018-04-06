@@ -1,0 +1,180 @@
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+public class Steuerung implements KeyListener{
+    private static int links = KeyEvent.VK_A;;
+    private static int rechts = KeyEvent.VK_D;
+    private static int oben = KeyEvent.VK_W;
+    private static int unten = KeyEvent.VK_S;
+    private static int angriff = KeyEvent.VK_SPACE;
+    private static int benutzen = KeyEvent.VK_E;
+    private static int pause = KeyEvent.VK_ESCAPE;
+    private static boolean pauseAn=false;
+
+    private static boolean[] keys = new boolean[512];
+
+    Spieler spieler;
+    Spielschleife loop;
+    public Steuerung(Spieler spieler, Spielschleife loop){
+        this.spieler = spieler;
+        this.loop=loop;
+    }
+
+    public void indirektesInputUeberpruefung(){
+        if(isKeyDown(oben)){
+            spieler.beschleunigen(0.0,-1.1);
+        }
+        if(isKeyDown(unten)){
+            spieler.beschleunigen(0,1.1);
+        }
+        if(isKeyDown(links)){
+            spieler.beschleunigen(-1.1,0);
+        }
+        if(isKeyDown(rechts)){
+            spieler.beschleunigen(1.1,0);
+        }
+        if(isKeyDown(angriff)){
+            spieler.setAngriff(true);
+        }
+        else{
+            spieler.setAngriff(false);
+        }
+        if(isKeyDown(benutzen)){
+            spieler.itemAktivieren();
+        }
+    }
+
+    private void direktesInput(KeyEvent e){        
+        if(e.getKeyCode() == pause){ 
+            pauseAn=!pauseAn;
+            loop.pausieren();
+            Fenster.pausenmenueAufrufen(pauseAn);            
+        }
+        if(e.getKeyCode() == angriff){
+            spieler.textWeiter();
+        }
+    }
+
+    public static boolean isKeyDown(int keyCode){
+        if(keyCode >= 0 &&keyCode<keys.length){
+            return keys[keyCode];
+        }
+        else{
+            return false;
+        }
+    }
+
+    public void keyPressed(KeyEvent e){
+        int keyCode = e.getKeyCode();
+        if(keyCode>= 0 &&keyCode<keys.length){
+            keys[keyCode] = true;
+        }
+
+        direktesInput(e);
+    }   
+
+    public void keyReleased(KeyEvent e){
+        int keyCode = e.getKeyCode();
+        if(keyCode>= 0 &&keyCode<keys.length){
+            keys[keyCode] = false;
+        }
+    }  
+
+    public void keyTyped(KeyEvent e){
+        int keyCode = e.getKeyCode();
+        if(keyCode>= 0 &&keyCode<keys.length){
+            keys[keyCode] = true;
+        }
+
+    }
+    
+    public static void setPauseAn(boolean an){
+        pauseAn=an;
+    }
+
+    public static int getLinksTaste(){
+        return links;
+    }
+
+    public static int getRechtsTaste(){
+        return rechts;
+    }
+
+    public static int getObenTaste(){
+        return oben;
+    }
+
+    public static int getUntenTaste(){
+        return unten;
+    }
+
+    public static int getAngriffTaste(){
+        return angriff;
+    }
+
+    public static int getBenutzenTaste(){
+        return benutzen;
+    }
+
+    public static int getPauseTaste(){
+        return pause;
+    }
+
+    public static String getLinksTastenText(){
+        return KeyEvent.getKeyText(links);
+    }    
+
+    public static String getRechtsTastenText(){
+        return KeyEvent.getKeyText(rechts);
+    }   
+
+    public static String getObenTastenText(){
+        return KeyEvent.getKeyText(oben);
+    }   
+
+    public static String getUntenTastenText(){
+        return KeyEvent.getKeyText(unten);
+    }   
+
+    public static String getAngriffTastenText(){
+        return KeyEvent.getKeyText(angriff);
+    }   
+
+    public static String getBenutzenTastenText(){
+        return KeyEvent.getKeyText(benutzen);
+    }
+
+    public static String getPauseTastenText(){
+        return KeyEvent.getKeyText(pause);
+    }
+
+    public static void setLinksTasteZu(int taste){
+        links = taste;
+    }    
+
+    public static void setRechtsTasteZu(int taste){
+        rechts = taste;
+    }   
+
+    public static void setObenTasteZu(int taste){
+        oben = taste;
+    }   
+
+    public static void setUntenTasteZu(int taste){
+        unten = taste;
+    }   
+
+    public static void setAngriffTasteZu(int taste){
+        angriff = taste;
+    }   
+
+    public static void setBenutzenTasteZu(int taste){
+        benutzen = taste;
+    }
+
+    public static void setPauseTasteZu(int taste){
+        pause = taste;
+    }
+
+}
+

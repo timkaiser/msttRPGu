@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=animationL\ animationR\ animationO\ animationU\ maske\ x\ y\ breite\ hoehe
-comment0.target=NPC(Animation,\ Animation,\ Animation,\ Animation,\ java.awt.image.BufferedImage,\ double,\ double,\ int,\ int)
-comment1.params=sp
-comment1.target=void\ setSpieler(Spieler)
-numComments=2

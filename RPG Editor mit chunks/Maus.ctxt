@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Maus()
+comment1.params=
+comment1.target=char\ getCode()
+comment2.params=code
+comment2.target=void\ setCode(char)
+comment3.params=
+comment3.target=int\ getZahl()
+comment4.params=zahl
+comment4.target=void\ setZahl(int)
+comment5.params=
+comment5.target=Werkzeug\ getWerkzeug()
+comment6.params=werkzeug
+comment6.target=void\ setWerkzeug(Werkzeug)
+numComments=7

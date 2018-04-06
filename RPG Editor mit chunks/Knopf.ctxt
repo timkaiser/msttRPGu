@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=code\ zahl\ img
+comment0.target=Knopf(char,\ int,\ java.awt.image.BufferedImage)
+comment1.params=code\ zahl
+comment1.target=Knopf(char,\ int)
+comment10.params=g
+comment10.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=adresse
+comment2.target=void\ setIconImage(java.lang.String)
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getImage()
+comment4.params=img
+comment4.target=void\ setImage(java.awt.image.BufferedImage)
+comment5.params=
+comment5.target=int\ getZahl()
+comment6.params=
+comment6.target=char\ getCode()
+comment7.params=z
+comment7.target=void\ setZahl(int)
+comment8.params=a
+comment8.target=void\ setCode(char)
+comment9.params=e
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=11

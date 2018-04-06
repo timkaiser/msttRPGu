@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=x\ y\ xBeschleunigung\ yBeschleunigung\ projektile\ schuetze
+comment0.target=Stein(int,\ int,\ int,\ int,\ java.util.ArrayList,\ Spieler)
+numComments=1

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height
+comment0.target=AuswahlPanel(int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=void\ updatePanel()
+comment2.params=index
+comment2.target=int\ groesseAnpassen(int)
+comment3.params=i\ knopf
+comment3.target=void\ addKnopf(int,\ Knopf)
+numComments=4

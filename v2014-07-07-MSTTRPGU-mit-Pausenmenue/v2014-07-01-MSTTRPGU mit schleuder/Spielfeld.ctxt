@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spielfeld()
+comment1.params=projektil
+comment1.target=void\ projektilHinzufuegen(Projektil)
+comment2.params=
+comment2.target=java.util.ArrayList\ getProjektile()
+comment3.params=
+comment3.target=void\ weltAusschnittErmitteln()
+comment4.params=
+comment4.target=void\ einheitenPostionBerechnen()
+comment5.params=
+comment5.target=void\ zeichenreihenfolgeFestlegen()
+comment6.params=objekt
+comment6.target=void\ sortiertInZeichenlisteEinfuegen(Zeichenobjekt)
+comment7.params=g
+comment7.target=void\ paintComponent(java.awt.Graphics)
+comment8.params=
+comment8.target=java.util.ArrayList\ getZuBerechnendeEinheiten()
+comment9.params=
+comment9.target=javax.swing.JPanel\ getSpielfeld()
+numComments=10

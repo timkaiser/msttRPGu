@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ name
+comment0.target=KnopfPanel(int,\ int,\ int,\ int,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=k
+comment2.target=void\ addKnopf(Knopf)
+comment3.params=index
+comment3.target=Knopf\ getKnopf(int)
+comment4.params=
+comment4.target=int\ getGroese()
+numComments=5

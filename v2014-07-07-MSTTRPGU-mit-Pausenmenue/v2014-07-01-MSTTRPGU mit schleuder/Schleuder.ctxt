@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ spieler\ cooldown
+comment0.target=Schleuder(java.lang.String,\ Spieler,\ int)
+comment1.params=aktivieren
+comment1.target=void\ aktivieren(boolean)
+comment2.params=g\ zoomfaktor\ panel
+comment2.target=void\ zeichnen(java.awt.Graphics,\ double,\ javax.swing.JPanel)
+numComments=3

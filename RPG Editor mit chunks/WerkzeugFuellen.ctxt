@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=maus\ gitter
+comment0.target=void\ ausfuehren(java.awt.Rectangle,\ Gitter[][])
+comment1.params=gitter\ vorher\ code\ zahl\ ursprung
+comment1.target=void\ ausfuehrenR(Gitter[][],\ Gitter,\ char,\ int,\ Gitter)
+numComments=2

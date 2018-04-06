@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=ani1\ ani2\ ani3\ ani4\ maskenImage\ x\ y\ width\ height\ xBeschleunigung\ yBeschleunigung\ projektile\ schuetze
+comment0.target=Projektil(Animation,\ Animation,\ Animation,\ Animation,\ java.awt.image.BufferedImage,\ int,\ int,\ int,\ int,\ int,\ int,\ java.util.ArrayList,\ Spieler)
+comment1.params=hindernisse
+comment1.target=void\ positionBerechnen(java.util.ArrayList)
+comment2.params=
+comment2.target=void\ kollidiertMitEinheit()
+numComments=3

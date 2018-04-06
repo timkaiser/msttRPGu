@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ container
+comment0.target=Toolbar(int,\ int,\ int,\ int,\ Frame)
+comment1.params=k
+comment1.target=void\ addKnopf(WerkzeugKnopf)
+numComments=2
